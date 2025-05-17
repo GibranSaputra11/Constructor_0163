@@ -45,5 +45,10 @@ public:
     }
     friend float lihatGajiStaff(Staff* s);
 };
+
+float aksesGaji(Dosen* d) {
+    return d->gaji;
+}
+
 int main(){
 }
