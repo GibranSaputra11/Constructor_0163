@@ -23,6 +23,8 @@ private:
     string nidn;
     string pangkat;
     float gaji;
+public:
+    Dosen(string n, string id, string p, float g) : nama(n), nidn(id), pangkat(p), gaji(g) {}
 };    
 
 int main(){
