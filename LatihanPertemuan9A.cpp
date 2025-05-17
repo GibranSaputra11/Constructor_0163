@@ -30,7 +30,13 @@ public:
     void beriNilai(Mahasiswa* m, float nilai) {
         m->nilai = nilai; 
     }
-};    
+};
 
+class Staff {
+private:
+    string nama;
+    int idStaff;
+    float gaji;
+};
 int main(){
 }
