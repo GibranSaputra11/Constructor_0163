@@ -27,6 +27,9 @@ public:
     Dosen(string n, string id, string p, float g) : nama(n), nidn(id), pangkat(p), gaji(g) {}
     friend float aksesGaji(Dosen* d);
     friend class Staff;
+    void beriNilai(Mahasiswa* m, float nilai) {
+        m->nilai = nilai; 
+    }
 };    
 
 int main(){
