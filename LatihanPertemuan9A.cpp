@@ -17,5 +17,13 @@ public:
     friend class Dosen;
 };
 
+class Dosen {
+private:
+    string nama;
+    string nidn;
+    string pangkat;
+    float gaji;
+};    
+
 int main(){
 }
