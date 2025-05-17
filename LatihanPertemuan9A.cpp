@@ -37,6 +37,12 @@ private:
     string nama;
     int idStaff;
     float gaji;
+public:
+    Staff(string n, int id, float g) : nama(n), idStaff(id), gaji(g) {}
+
+    void ubahPangkat(Dosen* d, string pangkatBaru) {
+        d->pangkat = pangkatBaru;
+    }
 };
 int main(){
 }
