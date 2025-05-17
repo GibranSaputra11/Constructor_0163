@@ -43,6 +43,7 @@ public:
     void ubahPangkat(Dosen* d, string pangkatBaru) {
         d->pangkat = pangkatBaru;
     }
+    friend float lihatGajiStaff(Staff* s);
 };
 int main(){
 }
