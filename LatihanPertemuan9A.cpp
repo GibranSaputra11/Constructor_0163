@@ -2,6 +2,13 @@
 #include <string>
 using namespace std;
 
-int main(){
+class Mhasasiswa{
+private:
+    string nama;
+    string NIM;
+    float nilai;
     
+};
+
+int main(){
 }
