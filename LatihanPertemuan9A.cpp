@@ -66,4 +66,20 @@ public:
 };
 
 int main(){
+    Mahasiswa m1("Bagus", "20200140163");
+    Dosen d1("Pak Giga", "103418", "Kaprodi", 9000000);
+    Staff s1("Mas Andi", 1001, 5000000);
+    Universitas u;
+
+    d1.beriNilai(&m1, 85.5); 
+    m1.tampil();
+
+    cout << "Pangkat sebelum diubah: Lektor" << endl;
+    s1.ubahPangkat(&d1, "Guru Besar"); 
+    cout << "Pangkat sesudah diubah oleh staff." << endl;
+
+    u.tampilGajiDosen(&d1); 
+    u.tampilGajiStaff(&s1);
+
+    return 0;
 }
